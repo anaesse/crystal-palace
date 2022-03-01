@@ -1,0 +1,1145 @@
+body {
+  font-family: "Cormorant Infant", sans-serif;
+  max-width: 1440px;
+  margin: auto;
+}
+
+button {
+  border: none;
+}
+
+* {
+  text-decoration: none;
+  list-style-type: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+  position: relative;
+}
+
+.hero {
+  margin-bottom: 100px;
+  background-image: url(./assets/header.jpg);
+  width: 100%;
+  min-height: 80vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.hero .navbar {
+  background: url(./assets/Bg.svg);
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.hero .navbar .navbar-brand {
+  color: #ececec;
+}
+
+.hero .navbar .nav-link {
+  color: #ececec;
+}
+
+.hero .navbar .home {
+  color: #6c9ad0 !important;
+}
+
+.hero .hero-intro {
+  padding-top: 235px;
+  padding-bottom: 200px;
+  text-align: center;
+}
+
+.hero .hero-intro p {
+  color: #ececec;
+  font-family: "Cormorant Infant";
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0em;
+}
+
+.hero .hero-intro h1 {
+  color: #ececec;
+  font-family: "Cormorant Infant";
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 0em;
+  text-transform: capitalize;
+}
+
+.hero .hero-intro span {
+  color: #6c9ad0;
+}
+
+.hero .hero-intro .buttons .button-one {
+  background-color: #6c9ad0;
+  font-family: "Cormorant Infant";
+  color: #ffffff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: 0em;
+  padding: 20px 30px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.hero .hero-intro .buttons .button-two {
+  background: linear-gradient(152.97deg, rgba(108, 154, 208, 0.5) 0%, rgba(108, 154, 208, 0) 100%);
+  font-family: "Cormorant Infant";
+  color: #ffffff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: 0em;
+  padding: 20px 30px;
+}
+
+.hero .hero-showcase {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  right: 0;
+  top: 100%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  z-index: 10;
+  width: 60%;
+}
+
+.hero .hero-showcase .showcase-img {
+  -webkit-box-flex: 1;
+      -ms-flex: auto;
+          flex: auto;
+  width: 33%;
+}
+
+.hero .hero-showcase .showcase-img img {
+  width: 100%;
+}
+
+.hero .hero-showcase .showcase {
+  -webkit-box-flex: 1;
+      -ms-flex: auto;
+          flex: auto;
+  width: 67%;
+  background-color: #ffffff;
+  padding: 30px;
+}
+
+.hero .hero-showcase .showcase .one {
+  font-family: "Cormorant Infant";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #10131a;
+}
+
+.hero .hero-showcase .showcase .two {
+  font-family: "Mulish";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+  text-transform: capitalize;
+  color: #4f4f4f;
+}
+
+.about {
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+.about .about-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 3em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about .about-content .about-img {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 0px;
+          flex: 1 1 0;
+}
+
+.about .about-content .about-img img {
+  width: 100%;
+}
+
+.about .about-content .about-us {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 0px;
+          flex: 1 1 0;
+  text-align: left;
+}
+
+.about .about-content .about-us .one {
+  font-family: "Cormorant Infant";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  text-transform: capitalize;
+  color: #6c9ad0;
+}
+
+.about .about-content .about-us .two {
+  font-family: "Cormorant Infant";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 55px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #10131a;
+}
+
+.about .about-content .about-us .three {
+  font-family: "Mulish";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  text-transform: capitalize;
+  color: #4f4f4f;
+}
+
+.about .about-content .about-us .button-one {
+  font-family: "Cormorant Infant";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding: 20px 60px;
+  background: #6c9ad0;
+  border-radius: 5px;
+  color: #ffffff;
+  margin: 35px 0px;
+}
+
+.services {
+  padding-top: 150px;
+  padding-bottom: 150px;
+  background: rgba(108, 154, 208, 0.05);
+}
+
+.services .service {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.services .service .service-content {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 0px;
+          flex: 1 1 0;
+}
+
+.services .service .service-content .one {
+  font-family: "Cormorant Infant";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  text-transform: capitalize;
+  color: #6c9ad0;
+}
+
+.services .service .service-content .two {
+  font-family: "Cormorant Infant";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 55px;
+  letter-spacing: 0em;
+  text-transform: capitalize;
+  text-align: left;
+  color: #10131a;
+}
+
+.services .service .service-content .three {
+  font-family: "Mulish";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  text-transform: capitalize;
+  color: #10131a;
+}
+
+.services .service .service-content .service-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  top: 200px;
+  z-index: 10;
+  gap: 8px;
+  width: 60%;
+}
+
+.services .service .service-content .service-flex .service-items {
+  background: white;
+  padding: 2em;
+}
+
+.services .service .service-content .service-flex .service-items .one {
+  font-family: "Cormorant Infant";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #10131a;
+}
+
+.services .service .service-content .service-flex .service-items .two {
+  font-family: "Mulish";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #4f4f4f;
+}
+
+.services .service .service-content .service-img {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 0px;
+          flex: 1 1 0;
+}
+
+.services .service .service-content .service-img img {
+  width: 100%;
+}
+
+.services .service-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 50px;
+}
+
+.services .service-button button {
+  padding: 20px 60px;
+  background: #6c9ad0;
+  color: #ffffff;
+}
+
+.varieties {
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+.varieties .variety {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 3em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.varieties .variety .variety-pic {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 0px;
+          flex: 1 1 0;
+}
+
+.varieties .variety .variety-pic .variety-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+
+.varieties .variety .variety-pic .variety-img img {
+  width: 75%;
+}
+
+.varieties .variety .variety-pic .variety-image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 4.5em;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  position: absolute;
+  top: 100%;
+  -webkit-transform: translateY(-120%);
+          transform: translateY(-120%);
+  z-index: 10;
+}
+
+.varieties .variety .variety-pic .variety-image img {
+  width: 35%;
+}
+
+.varieties .variety .variety-pic .variety-image .square {
+  height: 40%;
+}
+
+.varieties .variety .variety-desc {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 0px;
+          flex: 1 1 0;
+  padding-top: 40px;
+}
+
+.varieties .variety .variety-desc .one {
+  font-family: "Cormorant Infant";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  text-transform: capitalize;
+  color: #6c9ad0;
+}
+
+.varieties .variety .variety-desc .two {
+  font-family: "Cormorant Infant";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #10131a;
+}
+
+.varieties .variety .variety-desc .three {
+  font-family: "Mulish";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  text-transform: capitalize;
+  color: #10131a;
+}
+
+.varieties .variety .variety-desc .buttons {
+  margin-top: 50px;
+}
+
+.varieties .variety .variety-desc .buttons .button-one {
+  background-color: #6c9ad0;
+  font-family: "Cormorant Infant";
+  color: #ffffff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0em;
+  padding: 20px 30px;
+  margin-right: 5px;
+}
+
+.varieties .variety .variety-desc .buttons .button-two {
+  background: linear-gradient(152.97deg, rgba(108, 154, 208, 0.5) 0%, rgba(108, 154, 208, 0) 100%);
+  font-family: "Cormorant Infant";
+  color: #ffffff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0em;
+  padding: 20px 30px;
+  margin-left: 5px;
+}
+
+.review {
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+.review .reviews {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 3em;
+}
+
+.review .reviews .review-content {
+  -webkit-box-flex: 1;
+      -ms-flex: auto;
+          flex: auto;
+  width: 33%;
+}
+
+.review .reviews .review-content .one {
+  font-family: "Cormorant Infant";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  text-transform: capitalize;
+  color: #6c9ad0;
+}
+
+.review .reviews .review-content .two {
+  font-family: "Cormorant Infant";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #10131a;
+}
+
+.review .reviews .review-content .three {
+  font-family: "Mulish";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  text-transform: capitalize;
+  color: #10131a;
+}
+
+.review .reviews .review-img {
+  -webkit-box-flex: 1;
+      -ms-flex: auto;
+          flex: auto;
+  width: 66%;
+}
+
+.review .reviews .review-img .review-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1em;
+  width: 100%;
+}
+
+.review .reviews .review-img .review-flex .pic {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-flex: 1;
+      -ms-flex: auto;
+          flex: auto;
+  width: 50%;
+}
+
+.review .reviews .review-img .review-flex .pic .space {
+  padding: 15px;
+}
+
+.review .reviews .review-img .review-flex .pic .space p {
+  font-family: "Mulish";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+  text-transform: capitalize;
+  color: #10131a;
+}
+
+.review .reviews .review-img .review-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+}
+
+.review .reviews .review-img .review-center .picture {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+}
+
+.review .reviews .review-img .review-center .picture .space {
+  padding: 15px;
+}
+
+.review .reviews .review-img .review-center .picture .space p {
+  font-family: "Mulish";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+  text-transform: capitalize;
+  color: #10131a;
+}
+
+.brands {
+  padding-bottom: 150px;
+}
+
+.brands .brand {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.brands .brand img {
+  opacity: 0.1;
+}
+
+.brands .brand img:hover {
+  opacity: 1;
+}
+
+.subcribe {
+  background-image: url(./assets/footer.png);
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 300px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.subcribe .subscribe-content p {
+  font-family: "Cormorant Infant";
+  color: #ececec;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0em;
+}
+
+.subcribe .subscribe-content button {
+  background-color: #6c9ad0;
+  font-family: "Cormorant Infant";
+  color: #ffffff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0em;
+  padding: 20px 30px;
+}
+
+footer {
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+footer .footer-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer .footer-content .description {
+  width: 33%;
+}
+
+footer .footer-content .description .desc .navbar-brand {
+  font-family: "Cormorant Infant";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #6c9ad0;
+  padding-bottom: 20px;
+}
+
+footer .footer-content .description .desc p {
+  font-family: "Mulish";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  word-wrap: break-word;
+  color: #10131a;
+  line-height: 15px;
+  text-transform: capitalize;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+footer .footer-content .list {
+  width: 33%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 12px;
+}
+
+footer .footer-content .list ul {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+footer .footer-content .list ul li {
+  font-family: "Cormorant Infant";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #10131a;
+  text-transform: capitalize;
+}
+
+footer .footer-content .contact {
+  width: 33%;
+}
+
+footer .footer-content .contact p {
+  font-family: "Mulish";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  text-transform: capitalize;
+  color: #4f4f4f;
+  margin-bottom: 2px;
+}
+
+footer .footer-content .contact .contact-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 3em;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+footer .footer-content .contact .contact-icons i {
+  background: #6c9ad0;
+  border-radius: 8px;
+  color: #ffffff;
+  padding: 20px;
+}
+
+@media (max-width: 768px) {
+  .hero .navbar .navbar-nav {
+    text-align: center;
+  }
+  .hero .hero-showcase {
+    width: 70%;
+  }
+  .hero .hero-showcase .showcase-img {
+    width: 22%;
+  }
+  .hero .hero-showcase .showcase-img img {
+    width: 100%;
+  }
+  .hero .hero-showcase .showcase {
+    width: 75%;
+    padding: 10px;
+  }
+  .hero .hero-showcase .showcase .one {
+    margin-bottom: 3px;
+  }
+  .about {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .about .about-content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .about .about-content .about-img {
+    width: 100%;
+  }
+  .about .about-content .about-img img {
+    width: 100%;
+  }
+  .about .about-content .about-us {
+    width: 100%;
+  }
+  .services .service .service-content {
+    -webkit-box-flex: 1;
+        -ms-flex: auto;
+            flex: auto;
+    width: 55%;
+    padding-right: 10px;
+  }
+  .services .service .service-content .service-flex {
+    top: 200px;
+    gap: 4px;
+    width: 65%;
+  }
+  .services .service .service-content .service-flex .service-items {
+    margin-top: 80px;
+    padding: 1em;
+  }
+  .services .service .service-content .service-flex .service-items .one {
+    font-size: 22px;
+    line-height: 25px;
+  }
+  .services .service .service-content .service-flex .service-items .two {
+    font-size: 11px;
+    line-height: 15px;
+  }
+  .services .service .service-content .service-img {
+    -webkit-box-flex: 1;
+        -ms-flex: auto;
+            flex: auto;
+    width: 45%;
+  }
+  .services .service .service-content .service-img img {
+    width: 50%;
+  }
+  .services .service-button {
+    margin-top: 60px;
+  }
+  .varieties {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .varieties .variety {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .varieties .variety .buttons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 1em;
+  }
+  .review {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .review .reviews {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .review .reviews .review-content {
+    width: 100%;
+  }
+  .review .reviews .review-img {
+    width: 100%;
+  }
+  .review .reviews .review-img .review-flex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .review .reviews .review-img .review-flex .pic {
+    width: 100%;
+  }
+  .review .reviews .review-img .review-center {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .review .reviews .review-img .review-center .picture {
+    width: 100%;
+  }
+  .review footer .footer-content .list {
+    margin: 0;
+    gap: 0;
+  }
+  .review footer .footer-content .list ul {
+    margin: 0;
+    padding: 0;
+  }
+  .review footer .footer-content .contact .contact-icons {
+    gap: 10px;
+    padding-bottom: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero {
+    margin-bottom: 20px;
+    display: block;
+    background-position: top -170px center;
+  }
+  .hero .navbar .navbar-nav {
+    text-align: center;
+  }
+  .hero .hero-showcase {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    -webkit-transform: none;
+            transform: none;
+    width: 100%;
+  }
+  .hero .hero-showcase .showcase-img {
+    width: 30%;
+  }
+  .hero .hero-showcase .showcase-img img {
+    width: 100%;
+  }
+  .hero .hero-showcase .showcase {
+    width: 69%;
+    padding: 10px;
+  }
+  .hero .hero-showcase .showcase .one {
+    margin-bottom: 3px;
+  }
+  .about {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .about .about-content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .about .about-content .about-img {
+    width: 100%;
+  }
+  .about .about-content .about-img img {
+    width: 100%;
+  }
+  .about .about-content .about-us {
+    width: 100%;
+  }
+  .services {
+    padding-top: 60px;
+  }
+  .services .service {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .services .service .service-content {
+    width: 100%;
+  }
+  .services .service .service-content .service-flex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: relative;
+    top: 0;
+    gap: 8px;
+    width: 100%;
+  }
+  .services .service .service-img {
+    margin-top: 30px;
+    width: 100%;
+  }
+  .services .service .service-img img {
+    width: 100%;
+  }
+  .services .service-button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .varieties {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .varieties .variety {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .varieties .variety .buttons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 1em;
+  }
+  .review {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .review .reviews {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .review .reviews .review-content {
+    width: 100%;
+  }
+  .review .reviews .review-img {
+    width: 100%;
+  }
+  .review .reviews .review-img .review-flex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .review .reviews .review-img .review-flex .pic {
+    width: 100%;
+  }
+  .review .reviews .review-img .review-center {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .review .reviews .review-img .review-center .picture {
+    width: 100%;
+  }
+  .brands {
+    padding-top: 40px;
+    padding-bottom: 80px;
+  }
+  .brands .brand {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 2em;
+  }
+  footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  footer .footer-content {
+    display: block;
+  }
+  footer .footer-content .description {
+    width: 100%;
+  }
+  footer .footer-content .list {
+    width: 100%;
+    margin: 0;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  footer .footer-content .list ul {
+    margin: 0;
+    padding: 0;
+  }
+  footer .footer-content .contact {
+    width: 100%;
+    margin-top: 10px;
+  }
+  footer .footer-content .contact .contact-icons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 3em;
+    padding-bottom: 20px;
+  }
+}
+/*# sourceMappingURL=main.css.map */
