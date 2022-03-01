@@ -353,14 +353,14 @@ button {
             .variety-image {
                 display: flex;
                 justify-content: space-between;
-                gap: 4.5em;
+                gap: 7rem;
                 align-items: flex-end;
                 position: absolute;
                 top: 100%;
                 transform: translateY(-120%);
                 z-index: 10;
                 img {
-                    width: 35%;
+                    width: 30%;
                 }
                 .square {
                     height: 40%;
@@ -776,6 +776,28 @@ footer {
     .variety {
         flex-direction: column-reverse;
        
+        .variety-pic {
+            width: 100%;
+
+            .variety-img {
+                
+                img {
+                    width: 60%;
+                }
+            }
+
+            .variety-image {
+                gap: 12em;
+                transform: translateY(-105%);
+                img {
+                    width: 35%;
+                }
+                .square {
+                    height: 33%;
+                }
+            }
+        }
+
 
         .buttons {
             display: flex;
@@ -929,6 +951,28 @@ footer {
     padding-bottom: 60px;
     .variety {
         flex-direction: column-reverse;
+
+        .variety-pic {
+            width: 100%;
+
+            .variety-img {
+                
+                img {
+                    width: 65%;
+                }
+            }
+
+            .variety-image {
+                gap:20px;
+                transform: translateY(-110%);
+                img {
+                    width: 30%;
+                }
+                .square {
+                    height: 30%;
+                }
+            }
+        }
 
         .buttons {
             display: flex;
